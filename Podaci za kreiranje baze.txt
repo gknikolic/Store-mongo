@@ -1,0 +1,14 @@
+use Katalog
+db.Audio_Oprema.insert({Proizvodjac: "Logitech", Naziv: "Z320", Model: "DA1", Tip:"Zvucnici", Cena:"50000"})
+
+db.Mobilni_Uredjaji.insert({Proizvodjac: "Samsung", Naziv:"Galaxy S7 edge", Model:"d", Ram:"4GB", Procesor:"Octa Core", Dijagonala_Ekrana:"4.8 inca", Kamera:"16mpx", Cena:"45000"})
+
+db.Monitori.insert({Proizvodjac: "Dell", Naziv:"US27FDH", Model:"WWE234", Dijagonala_Ekrana:"4.8 inca", Panel:"IPS", Odaziv:"120mhz", Cena:"100000"})
+
+db.Prenosni_Racunari.insert({Proizvodjac: "Asus", Naziv:"Tuf Gaming", Model:"FX504", Ram:"16GB", Procesor:"Octa Core", Graficka_Kartica:"Nvidia 1050gt",Hard_Disk:"128gb M.2", Dijagonala_Ekrana:"15.6 inca", Kamera:"16mpx", Cena:"160000"})
+
+db.Racunari.insert({Proizvodjac: "Alienware", Naziv:"Area 51", Ram:"64GB", Model:"FJGHT456", Procesor:"Octa Core", Maticna_Ploca:"Alienware motherboard", Napajanje:"Alienware", Graficka_Kartica:"Nvidia 2050gt",Hard_Disk:"128gb M.2", Cena:"160000"})
+
+db.Racunarska_Oprema.insert({Proizvodjac: "Razer", Naziv: "Naga", Model: "DLS32", Tip:"Mis",Povezanost:"Zicani", Cena:"50000"})
+
+db.Stampaci_I_Skeneri.insert({Proizvodjac: "HP", Naziv: "Scanner", Model: "CS346",Format:"A4", Tip:"Skener", Cena:"50000"})
